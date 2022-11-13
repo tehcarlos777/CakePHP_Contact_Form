@@ -1,0 +1,106 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-11-13 15:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Command/SendEmailCommand.php:54
+msgid "Email queue is empty. No emails send."
+msgstr "Brak emaili w kolejce do wysyłki."
+
+#: ./src/Command/SendEmailCommand.php:60
+msgid "Success, Email sent."
+msgstr "Sukces, Email wysłany."
+
+#: ./src/Command/SendEmailCommand.php:61
+#: ./src/Mailer/ContactsMailer.php:35
+#: ./templates/Contacts/contact.php:13
+msgid "Name"
+msgstr "Imię"
+
+#: ./src/Command/SendEmailCommand.php:62
+#: ./templates/Contacts/contact.php:14
+msgid "Subject"
+msgstr "Temat"
+
+#: ./src/Command/SendEmailCommand.php:64
+#: ./src/Mailer/ContactsMailer.php:38
+#: ./templates/Contacts/contact.php:16
+msgid "Message"
+msgstr "Wiadomość"
+
+#: ./src/Command/SendEmailCommand.php:65
+#: ./templates/Contacts/contact.php:17
+msgid "Consent1"
+msgstr "Zgoda1"
+
+#: ./src/Command/SendEmailCommand.php:65
+#: ./src/Command/SendEmailCommand.php:66
+msgid "Yes"
+msgstr "Tak"
+
+#: ./src/Command/SendEmailCommand.php:65
+#: ./src/Command/SendEmailCommand.php:66
+msgid "No"
+msgstr "Nie"
+
+#: ./src/Command/SendEmailCommand.php:66
+#: ./templates/Contacts/contact.php:18
+msgid "Consent2"
+msgstr "Zgoda2"
+
+#: ./src/Command/SendEmailCommand.php:68
+msgid "Error, Email not sent."
+msgstr "Błąd, Email nie został wysłany."
+
+#: ./src/Controller/ContactsController.php:34
+msgid "The contact has been saved."
+msgstr "Kontakt został zapisany."
+
+#: ./src/Controller/ContactsController.php:37
+msgid "The contact could not be saved. Please, try again."
+msgstr "Kontakt nie został zapisany, spróbuj ponownie później."
+
+#: ./src/Mailer/ContactsMailer.php:33
+msgid "Contact Page"
+msgstr "Kontakt"
+
+#: ./templates/Contacts/contact.php:15
+msgid "Email"
+msgstr "Email"
+
+#: ./templates/Contacts/contact.php:21
+msgid "Submit"
+msgstr "Wyślij"
+
+#: ./templates/Contacts/index.php:7
+#: ./templates/layout/default.php:19
+msgid "Contact Form"
+msgstr "Formularz kontaktowy"
+
+#: ./templates/Contacts/index.php:11
+msgid "Contact us"
+msgstr "Skontaktuj się z nami"
+
+#: ./templates/layout/default.php:52
+msgid "Home"
+msgstr "Home"
+
+#: ./templates/layout/default.php:55
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr "Powrót"
+

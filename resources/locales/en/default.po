@@ -1,0 +1,88 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-11-13 15:20+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Command/SendEmailCommand.php:54
+msgid "Success, Email sent"
+msgstr ""
+
+#: ./src/Command/SendEmailCommand.php:55
+#: ./src/Mailer/ContactsMailer.php:35
+#: ./templates/Contacts/contact.php:13
+msgid "Name"
+msgstr ""
+
+#: ./src/Command/SendEmailCommand.php:56
+#: ./templates/Contacts/contact.php:14
+msgid "Subject"
+msgstr ""
+
+#: ./src/Command/SendEmailCommand.php:58
+#: ./src/Mailer/ContactsMailer.php:38
+#: ./templates/Contacts/contact.php:16
+msgid "Message"
+msgstr ""
+
+#: ./src/Command/SendEmailCommand.php:59
+#: ./templates/Contacts/contact.php:17
+msgid "Consent1"
+msgstr ""
+
+#: ./src/Command/SendEmailCommand.php:60
+#: ./templates/Contacts/contact.php:18
+msgid "Consent2"
+msgstr ""
+
+#: ./src/Controller/ContactsController.php:34
+msgid "The contact has been saved."
+msgstr ""
+
+#: ./src/Controller/ContactsController.php:37
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Mailer/ContactsMailer.php:33
+msgid "Contact Page"
+msgstr ""
+
+#: ./templates/Contacts/contact.php:15
+msgid "Email"
+msgstr ""
+
+#: ./templates/Contacts/contact.php:21
+msgid "Submit"
+msgstr ""
+
+#: ./templates/Contacts/index.php:7
+#: ./templates/layout/default.php:19
+msgid "Contact Form"
+msgstr ""
+
+#: ./templates/Contacts/index.php:11
+msgid "Contact us"
+msgstr ""
+
+#: ./templates/layout/default.php:52
+msgid "Home"
+msgstr ""
+
+#: ./templates/layout/default.php:55
+msgid "Contact"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
