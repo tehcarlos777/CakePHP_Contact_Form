@@ -9,6 +9,7 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 
 If Composer is installed globally, run
+PHP 8.1 required
 
 ```bash
 composer install
@@ -47,7 +48,7 @@ bin/cake SendEmail
 ```
 
 ## Run PHPUnit tests
-Set email address in `tests/TestCase/Mailer/ContactsMailerTest.php`  before running the tests.
+Set email address in `tests/TestCase/Mailer/ContactsMailerTest.php` before running the tests.
 
 ```bash
 vendor/bin/phpunit
