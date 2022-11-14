@@ -32,6 +32,7 @@ Read and edit the environment specific `config/app_local.php` and setup the
 Other environment agnostic settings can be changed in `config/app.php`.
 Set `config/.env` file.
 
+
 ## Migrations
 
 Run database migration to prepare database schema.
@@ -48,7 +49,7 @@ bin/cake SendEmail
 ```
 
 ## Run PHPUnit tests
-Set email address in `tests/TestCase/Mailer/ContactsMailerTest.php` before running the tests.
+Set TEST_MAIL in .env in `tests/TestCase/Mailer/ContactsMailerTest.php` before running the tests.
 
 ```bash
 vendor/bin/phpunit

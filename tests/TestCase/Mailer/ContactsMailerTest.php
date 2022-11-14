@@ -19,7 +19,7 @@ class ContactsMailerTest extends TestCase
     protected $Contacts;
 
     public function testSendEmail() {
-        $result = (new ContactsMailer())->sendEmail('Test_name', 'Test_subject2', 'set_email_address', 'Test_message');
+        $result = (new ContactsMailer())->sendEmail('Test_name', 'Test_subject2', env('TEST_MAIL'), 'Test_message');
         $this->assertIsBool($result);
         $this->assertEquals(true, $result, "Send email");
     }
